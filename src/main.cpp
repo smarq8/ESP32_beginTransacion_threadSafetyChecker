@@ -11,7 +11,6 @@ void task1(void *p){
     if(cd!=4097){
       Serial.printf("task1 SPI clock wverwritten: %8u %u\n",millis(),cd);
     }
-    // delay(1);
   }
   vTaskDelete(NULL);
 }
@@ -24,7 +23,6 @@ void task2(void *p){
     if(cd!=10227713){
       Serial.printf("task2 SPI clock wverwritten: %8u %u\n",millis(),cd);
     }
-    // delay(1);
   }
   vTaskDelete(NULL);
 }
